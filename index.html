@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iara & Mo 💜</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section class="hero">
+        <h1>Iara & <span>Mo</span></h1>
+        <p>Desde um fim de tarde no pavilhão...</p>
+        <button onclick="tocarMusica()">Tocar Nossa Música 🎵</button>
+    </section>
+
+    <section class="contador-section">
+        <h2>⏳ Nosso Tempo Juntos</h2>
+        <div id="contador"></div>
+    </section>
+
+    <section class="timeline-section">
+        <h2>📖 Nossa História</h2>
+        <div class="timeline">
+
+            <div class="event">
+                <h3>02 de Agosto</h3>
+                <p>Nos vimos pela primeira vez.</p>
+            </div>
+
+            <div class="event">
+                <h3>22 de Agosto</h3>
+                <p>Ficamos pela primeira vez.</p>
+            </div>
+
+            <div class="event">
+                <h3>01 de Setembro</h3>
+                <p>Eu disse que te amava.</p>
+            </div>
+
+            <div class="event">
+                <h3>01 de Novembro</h3>
+                <p>Nos afastamos…</p>
+            </div>
+
+            <div class="event">
+                <h3>01 de Dezembro</h3>
+                <p>Voltamos.</p>
+            </div>
+
+            <div class="event">
+                <h3>05 de Dezembro</h3>
+                <p>Outro afastamento…</p>
+            </div>
+
+            <div class="event">
+                <h3>05 de Janeiro</h3>
+                <p>Voltamos novamente.</p>
+            </div>
+
+            <div class="event destaque">
+                <h3>13 de Janeiro 💜</h3>
+                <p>Começamos a namorar oficialmente.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="galeria">
+        <h2>📸 Nossos Momentos</h2>
+        <div class="fotos">
+            <img src="foto1.jpeg">
+            <img src="foto2.jpeg">
+            <img src="foto3.jpeg">
+            <img src="foto4.jpeg">
+            <img src="foto5.jpeg">
+        </div>
+    </section>
+
+    <section class="carta-section">
+        <h2>💌 Carta Para Você</h2>
+        <div class="carta" id="textoCarta"></div>
+    </section>
+
+    <section class="final">
+        <button onclick="mensagemFinal()">Clique aqui se você me ama 💜</button>
+    </section>
+
+    <audio id="musica" loop>
+        <source src="noisdois.mp3" type="audio/mp3">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
